@@ -1,0 +1,14 @@
+.products__grid {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  gap: 50px;
+  margin-left: 10px;
+  color: var(--secondPrimaryColor);
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; */
+}
+
+.product__img img {
+  border-radius: 5px;
+}

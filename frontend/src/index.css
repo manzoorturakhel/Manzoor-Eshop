@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 17px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--primaryColor);
+  color: var(--secondPrimaryColor);
+}
+
+.rating i {
+  color: gold;
+}
+.btn {
+  color: var(--primaryColor);
+  font-size: 17px;
+}
+:root {
+  --primaryColor: rgb(19, 18, 18);
+  --secondPrimaryColor: #e6d5b8;
+  --thirdPrimaryColor: #f0a500;
+  --fourthPrimaryColor: #e45826;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondPrimaryColor);
+  font-size: 20px;
+}
+.link-btn {
+  display: block;
+  width: 100px;
+  border: 2px solid #f0a500;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f0a500;
+  color: var(--primaryColor);
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 17px;
+}
+.center {
+  color: var(--secondPrimaryColor);
+  text-align: center;
+  width: 20%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+table {
+  border-collapse: collapse;
+  border-color: var(--thirdPrimaryColor);
+}
+table caption {
+  font-size: 22px;
+  margin-top: 10px;
+}
+button:disabled {
+  cursor: not-allowed;
+  color: var(--primaryColor);
+}
+.custom__select {
+  width: 130px;
+  padding: 10px;
+  background-color: var(--primaryColor);
+  color: var(--secondPrimaryColor);
+  font-size: 16px;
+}
+.myProducts__edits_1 {
+  display: flex;
+}
+.buttons {
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons .btn {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.limit-btn-width {
+  width: 79%;
+  transform: translateX(26.5%);
+}
+.bg-thirdPrimary {
+  width: 100%;
+  padding: 10px 0;
+  background-color: var(--thirdPrimaryColor);
+  color: var(--primaryColor);
+  border-radius: 10px;
+}
+.buttons-2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 200px 200px;
+  gap: 50px;
+}
+
+.mg-10 {
+  margin-top: 20px;
+}

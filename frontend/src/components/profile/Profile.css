@@ -1,0 +1,51 @@
+.profile__details {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__tab {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+.profile__update__form {
+  width: 45%;
+}
+.profile__cover {
+  background: linear-gradient(
+    90deg,
+    rgba(228, 88, 38, 1) 0%,
+    rgba(240, 165, 0, 1) 35%
+  );
+  width: 70%;
+  height: 15vh;
+  border-radius: 10px;
+}
+.profile {
+  display: flex;
+  border-bottom: 1px solid var(--secondPrimaryColor);
+  width: 70%;
+}
+.profile__img {
+  position: relative;
+}
+.profile__img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  top: -65px;
+  left: 160px;
+}
+.input_profile {
+  width: 93%;
+  padding: 10px;
+  margin: 20px 0;
+}
+.active {
+  width: 69%;
+  padding: 8px 4px;
+  background-color: var(--thirdPrimaryColor);
+  color: var(--primaryColor);
+}

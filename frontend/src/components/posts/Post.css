@@ -1,0 +1,16 @@
+.myProducts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.myProducts__img {
+  display: flex;
+  align-items: center;
+}
+.myProducts__details {
+  margin-left: 10px;
+}
+.myProducts__edits button {
+  margin-top: 5px;
+}
