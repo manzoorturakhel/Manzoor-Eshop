@@ -1,6 +1,6 @@
 # Ecommerce (Manzor Shop)
 
-Not a finished product but it has the essential features not fully finished.
+Not a finished product but it has the essential features didnt finish because of some problems will finish it if someone needs it and want my help
 
 Built using NODE , EXPRESS , MONGODB , MONGOOSE AND REACT.
 
